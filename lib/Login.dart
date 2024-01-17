@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
   Future<void> loginUser(String username, String password) async {
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.0.18:5000/login'), // API endpoint'i
+        Uri.parse('http://********************/login'), // API endpoint'i
         body: {
           'username': username,
           'password': password,
