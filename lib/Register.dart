@@ -19,7 +19,7 @@ class _RegisterPageState extends State<RegisterPage> {
   Future<void> registerUser(
       String name, String surname, String email, String username, String password) async {
     final response = await http.post(
-      Uri.parse('http://192.168.0.18:5000/register'), // Sunucu adresinizi buraya ekleyin
+      Uri.parse('http://********************/register'), // Sunucu adresinizi buraya ekleyin
       body: {
         'name': name,
         'surname': surname,
