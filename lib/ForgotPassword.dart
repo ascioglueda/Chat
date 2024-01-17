@@ -16,7 +16,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
   Future<void> sendResetLink(String email) async {
     try {
       final response = await http.post(
-        Uri.parse('http://192.168.0.18:5000/reset_password'), // Şifre sıfırlama API endpoint'i
+        Uri.parse('http://********************/reset_password'), // Şifre sıfırlama API endpoint'i
         body: {
           'email': email,
         },
